@@ -1,30 +1,43 @@
 ---
-title: "Untitled"
-author: "Caroline Zhuang"
-date: "2025-08-28"
-output: html_document
+title: "Caroline Zhuang"
+image: "caroline_zhuang.JPG"
+links:
+  - label: Instagram
+    url: "https://www.instagram.com/carol.zhuang/"
+  - label: GitHub
+    url: "https://github.com/carolinezhuang23"
+  - label: Email
+    url: "cz7828@my.utexas.edu"
+resource_files:
+  - "images/*"
+output:
+  postcards::trestles
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(postcards)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+ 
+## Bio
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Hi everyone! My name is Caroline Zhuang and I'm currently a Junior at UT Austin
+studying Statistics and Data Science with a Minor in Business and a CS 
+Certificate. Outside of my studies, I'm into reading, running, latte art and 
+trying new cafes. I also have a dog named Butter and he is a Labrador and Beagle 
+mix. 
 
-```{r cars}
-summary(cars)
-```
+## Education
 
-## Including Plots
+**The University of Texas at Austin** | Austin, TX
 
-You can also embed plots, for example:
+B.S. in Statistics and Data Science
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+## Pictures
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+| ![](images/butter.jpg){width=150px} | ![](images/latte.jpg){width=150px} | ![](images/fourthwing.jpg){width=150px}
+|----------------------------|----------------------------|----------------------------|
+
+
