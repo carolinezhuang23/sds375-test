@@ -35,9 +35,21 @@ mix.
 
 B.S. in Statistics and Data Science
 
+## Reading List
+* Fourth Wing by Rebecca Yarros
+* Crown of Midnight (Throne of Glass Series) by Sarah J. Maas 
+* All the Bright Places by Jennifer Wren
+
 ## Pictures
 
 | ![](images/butter.jpg){width=150px} | ![](images/latte.jpg){width=150px} | ![](images/fourthwing.jpg){width=150px}
 |----------------------------|----------------------------|----------------------------|
 
 
+
+
+
+Time built:
+```{r, echo = FALSE}
+Sys.time()
+```
